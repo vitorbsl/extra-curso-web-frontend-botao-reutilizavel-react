@@ -27,42 +27,6 @@ export default MeuComponente;
 
 ~~~
 
-Melhorando o README com explicações sobre React, componentes e props:
-🛠️ Componente de Botão Reutilizável em React
-Este projeto tem como objetivo criar um componente de botão reutilizável utilizando React, seguindo boas práticas de desenvolvimento, design modular e acessibilidade. O botão pode ser personalizado para se adequar a diferentes estilos e funcionalidades, oferecendo uma base sólida para uso em projetos futuros.
-
-📚 O que é React?
-React é uma biblioteca JavaScript usada para criar interfaces de usuário (UI) interativas e eficientes. Desenvolvida pelo Facebook, ela permite que os desenvolvedores criem componentes reutilizáveis e gerenciem o estado da aplicação de forma eficiente. React utiliza um conceito chamado Virtual DOM para atualizar apenas as partes da interface que mudam, melhorando o desempenho e a experiência do usuário.
-
-Principais características do React:
-Componentização: A interface é dividida em pequenos blocos independentes chamados componentes.
-Reatividade: React atualiza automaticamente a UI quando os dados (estado ou props) mudam.
-Baseado em JavaScript: O React usa JavaScript e JSX, uma extensão de sintaxe que combina HTML e JS.
-📋 O que é um componente?
-Um componente é um bloco de construção no React. É uma função ou classe que retorna um pedaço da interface (HTML) que será exibido no navegador. Componentes permitem dividir a interface em partes reutilizáveis e independentes.
-
-Exemplos:
-Componente Simples:
-jsx
-Copiar código
-import React from "react";
-
-const MeuComponente = () => {
-  return <h1>Olá, mundo!</h1>;
-};
-
-export default MeuComponente;
-Componente com Props:
-jsx
-Copiar código
-import React from "react";
-
-const Saudacao = ({ nome }) => {
-  return <h1>Olá, {nome}!</h1>;
-};
-
-export default Saudacao;
-No exemplo acima, o componente Saudacao recebe uma prop chamada nome e a exibe no HTML.
 
 ## 🤔 O que são Props?
 Props (abreviação de "properties") são argumentos passados para os componentes. Elas permitem que um componente seja configurado ou receba dados externos, tornando-o mais reutilizável e dinâmico.
@@ -83,7 +47,6 @@ const Saudacao = ({ nome }) => {
 
 export default Saudacao;
 ~~~
-
 No exemplo acima, o componente Saudacao recebe uma prop chamada nome e a exibe no HTML.
 
 ## 🧩 Onde os componentes precisam ser chamados?
@@ -278,13 +241,6 @@ Se o projeto utiliza o Node.js e tem um arquivo `package.json`, você precisa ro
 ~~~javascript
 npm start
 ~~~
-
-- Isso irá rodar o comando `"start": "lite-server"` que está configurado no package.json. O `lite-server` vai automaticamente:
-
-- Criar um servidor local.
-- Abrir o seu navegador padrão.
-- Carregar o arquivo index.html do seu projeto.
-
 
 ### 5. Versionamento com Git
 Depois de implementada a solução e adicionar comentários ao código, você precisa versionar essas alterações usando o Git.
