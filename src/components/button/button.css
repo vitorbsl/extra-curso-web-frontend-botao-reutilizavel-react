@@ -1,0 +1,55 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  min-width: 180px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+.btn.primario {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn.primario:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+.btn.secundario {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn.secundario:hover {
+  background-color: #545b62;
+  transform: scale(1.03);
+}
+
+
+.btn.perigoso {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.perigoso:hover {
+  background-color: #a71d2a;
+  transform: scale(1.03);
+}

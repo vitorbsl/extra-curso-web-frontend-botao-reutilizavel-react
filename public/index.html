@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <title>React App</title>
+  <meta charset="UTF-8" />
+  <title>Exemplo de Botões Reutilizáveis</title>
+  <link rel="stylesheet" href="../src/components/button/button.css" />
+
 </head>
-
 <body>
-  <div id="root"></div>
-</body>
+  <h2>Exemplo de Botões Reutilizáveis</h2>
 
+  <button class="btn primario" onclick="alert('Clicou no Primário')">
+    Botão Primário
+  </button>
+
+  <br><br>
+
+  <button class="btn secundario" onclick="alert('Clicou no Secundário')">
+    Botão Secundário
+  </button>
+
+  <br><br>
+
+  <button class="btn perigoso" onclick="alert('Clicou no perigo')">
+    Botão Perigoso
+  </button>
+
+  <br><br>
+
+  <button class="btn primario" disabled>
+    Botão Desativado
+  </button>
+</body>
 </html>
